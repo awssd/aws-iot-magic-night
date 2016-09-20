@@ -78,3 +78,5 @@ scorekeeperResults.start();
 
 // TODO: Send MQTT message(s) about the status of the scorekeeper machine
 // used vs available memory, cpu temp, etc
+
+// TODO: Update the device's on/off status via the thing shadow
