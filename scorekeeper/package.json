@@ -1,9 +1,9 @@
 {
   "name": "aws-iot-magic-night-scorekeeper",
   "dependencies": {
-    "aws-iot-device-sdk": "^1.0.12",
-    "aws-sdk": "^2.6.3",
-    "node-uuid": "^1.4.7",
-    "sqs-consumer": "^3.3.0"
+    "aws-iot-device-sdk": "1.0.12",
+    "aws-sdk": "2.6.3",
+    "node-uuid": "1.4.7",
+    "sqs-consumer": "3.3.0"
   }
 }
