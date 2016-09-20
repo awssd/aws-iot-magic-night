@@ -72,6 +72,7 @@ Now that you can see how AWS IoT interacts with devices over MQTT and how its me
 
 * AWS IoT NodeJS SDK
     - https://github.com/aws/aws-iot-device-sdk-js
+    - (Working with the Thing Shadow) https://github.com/aws/aws-iot-device-sdk-js#thing-shadow-class
 
 * AWS IoT DynamoDB Rule:
     - http://docs.aws.amazon.com/iot/latest/developerguide/iot-ddb-rule.html
