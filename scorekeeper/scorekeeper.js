@@ -11,7 +11,7 @@ const device = iot.device({
     keyPath: './certs/<private key>',
     certPath: './certs/<public certificate>',
     caPath: './certs/VeriSign-Class 3-Public-Primary-Certification-Authority-G5.pem',
-    clientId: '<client id>',
+    clientId: '<account id>',
     region: 'us-west-2'
 });
 const sqs = new aws.SQS({
