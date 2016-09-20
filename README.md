@@ -70,6 +70,9 @@ Now that you can see how AWS IoT interacts with devices over MQTT and how its me
 * Setup Node Client:
     - http://docs.aws.amazon.com/iot/latest/developerguide/iot-device-sdk-node.html
 
+* AWS IoT NodeJS SDK
+    - https://github.com/aws/aws-iot-device-sdk-js
+
 * AWS IoT DynamoDB Rule:
     - http://docs.aws.amazon.com/iot/latest/developerguide/iot-ddb-rule.html
 
