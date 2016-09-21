@@ -63,7 +63,7 @@ Now that you can see how AWS IoT interacts with devices over MQTT and how its me
 
 1. Collect stats such as CPU temperature, memory pressure, and other properties of the environment running the Scorekeeper "device" application and the battery voltage of the AWS IoT button, and send them as topics via MQTT. Create rules to forward messages to Cloudwatch for alerts, measurements, and graphing.
 
-2. Upgrade the Scorekeper "device" application from a simple MQTT pubsub client, to a AWS IoT "Thing", with a device shadow. Create a second "device" application using an [AWS IoT SDK](https://aws.amazon.com/iot/sdk/), that can turn the Scorekeeper "device" on and off, by changing state via the device shadow. When the Scorekeeper "device" is turned off, it should output that it is disabled and no points should be sent to DynamoDB and no scorekeeping results should be announced.
+2. Upgrade the Scorekeper "device" application from a simple MQTT pubsub client, to a AWS IoT "Thing", with a device shadow. Create a second "device" application using an [AWS IoT SDK](https://aws.amazon.com/iot/sdk/) (or use the AWS IoT button), that can turn the Scorekeeper "device" on and off, by changing state via the device shadow. When the Scorekeeper "device" is turned off, it should output that it is disabled and no points should be sent to DynamoDB and no scorekeeping results should be announced.
 
 # Additional Resources
 
